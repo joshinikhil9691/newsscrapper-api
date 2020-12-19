@@ -6,13 +6,13 @@ import csv
 import os
 from bs4 import BeautifulSoup
 
-from celery import shared_task
+# from celery import shared_task
 from .models import News
 
 from fake_useragent import UserAgent
 
 
-@shared_task
+# @shared_task
 def news_task():
     print('Collecting news article..')
     urls = ['https://timesofindia.indiatimes.com/rssfeeds/1221656.cms',

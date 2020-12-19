@@ -27,3 +27,4 @@ Admin username: admin
 
 Admin password: admin
 
+# newsscrapper-api
